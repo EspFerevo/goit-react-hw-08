@@ -1,0 +1,49 @@
+.userInfo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem 1rem;
+  background: linear-gradient(45deg, #4a90e2, #9013fe);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.userInfo:hover {
+  background-color: #f0f0f0;
+  transform: translateY(-2px);
+}
+
+.userInfo h3 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.userInfo i {
+  font-style: normal;
+  font-weight: 700;
+  
+}
+
+.userInfo button {
+  background-color: #ff4d4d;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.userInfo button:hover {
+  background-color: #e60000;
+  transform: translateY(-2px);
+}
+
+.userInfo button:active {
+  background-color: #cc0000;
+  transform: translateY(0);
+}

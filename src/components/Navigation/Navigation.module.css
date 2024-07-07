@@ -1,0 +1,29 @@
+.NavigationCont {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0.5rem 1.5rem;
+  background: linear-gradient(45deg, #4a90e2, #9013fe);
+
+
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.NavigationCont a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+
+.NavigationCont a:hover {
+  background-color: #e7f0ff;
+  color: red;
+  transform: translateY(-2px);
+}
+

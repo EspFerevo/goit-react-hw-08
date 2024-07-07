@@ -1,0 +1,73 @@
+.contactsItemCont {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+  padding: 1rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.contactsItemCont:hover {
+  background-color: #f9f9f9;
+  transform: translateY(-2px);
+}
+
+.contactWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.userInfo p {
+  margin: 0;
+  color: #333;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.btnCont {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.btnCont button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btnCont button:hover {
+  background: #0056b3;
+  transform: translateY(-2px);
+}
+
+.btnCont button:active {
+  background: #003d80;
+  transform: translateY(0);
+}
+
+/* Стиль для кнопки удаления контакта с дополнительным цветом */
+.btnCont button.deleteButton {
+  background: #ff4d4d;
+}
+
+.btnCont button.deleteButton:hover {
+  background: #e60000;
+}
+
+.btnCont button.deleteButton:active {
+  background: #cc0000;
+}

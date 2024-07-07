@@ -1,0 +1,44 @@
+  
+  .deleteModalCont p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .btnCont {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .btnCont button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .btnCont button:hover {
+    background: #0056b3;
+  }
+  
+  .btnCont button:active {
+    background: #00409a;
+  }
+  
+  .btnCont button.cancelButton {
+    background: green;
+  }
+  
+  .btnCont button.cancelButton:hover {
+    background: #5a6268;
+  }
+  
+  .btnCont button.cancelButton:active {
+    background: #4e5a61;
+  }
+  
+  
